@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Bastardify",
+    "version": "1.0",
+    "description": "Convert the font of all text on all websites to Times New Bastard",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "css": ["bastard.css"]
+        }
+    ]
+}
